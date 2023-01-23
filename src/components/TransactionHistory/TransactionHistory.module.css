@@ -1,0 +1,40 @@
+.transactionhistory {
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 300px;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+th {
+    padding: 10px;
+    color: white;
+    background-color: #00BCD5;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #ECF1F4;
+}
+
+
+thead {
+    border: 1px solid #00BCD5;
+    text-transform: uppercase;
+}
+
+td {
+padding: 10px;
+border: 1px solid #E4E4E4;
+color: #8C9296;
+}
+
+.trType {
+    text-transform: capitalize;
+}
+.trAmount {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
